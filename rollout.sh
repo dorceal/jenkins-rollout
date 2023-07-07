@@ -1,1 +1,1 @@
-kubectl rollout undo deployment jenkins-demo  --to-revision=<version> -n <namespace>
+kubectl rollout undo deploy jenkins-demo  --to-revision=<version> -n <namespace>
